@@ -6,9 +6,7 @@ const options = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMzNhYzdhYjQzMWNlN2Q4YWE0NTRhNDk4Y2IwNDVkZCIsInN1YiI6IjY1OTIyMmIwZTAwNGE2NmM5NTE3ZjJlNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.zj_qHJg771tfWAAkX391iqwTUqlV9d7PvIFeUia14q0",
-  },
+   
 };
 
 export function init() {
