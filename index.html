@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" />
+    <title>Movie App</title>
+  </head>
+  <style>
+ 
+  </style>
+  <body>
+    <div class="container" style="padding-top: 120px">
+      <header class="container fixed-top bg-white">
+        <nav
+          class="navbar navbar-expand-lg bg-body-primary d-flex align-items-center justify-content-center"
+        >
+          <div
+            class="container-fluid d-flex align-items-center justify-content-center justify-content-lg-end p-4"
+          >
+            <a class="navbar-brand" href="#" id="homebutton">Movie App</a>
+            <div
+              class="collapse navbar-collapse d-flex align-items-center justify-content-center justify-content-lg-end"
+              id="navbarSupportedContent"
+            >
+              <form class="d-flex w-75" role="search" id="searchForm">
+                <input
+                  class="form-control me-2 w-100"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                  id="searchinput"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main id="Main" class="container-fluid mb-4"></main>
+      <footer
+        id="Footer"
+        class="container-fluid bg-white p-1"
+        style="height: fit-content"
+      >
+        <div
+          class="contiainer h-100 d-flex flex-row justify-content-center align-items-center"
+        >
+          <p>Built By <span>Aman</span></p>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
